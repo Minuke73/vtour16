@@ -143,7 +143,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="17.668" vlookat="-2.313" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="30.432" vlookat="-13.842" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/148-1.tiles/preview.jpg" />
 
@@ -151,8 +151,8 @@
 			<cube url="panos/148-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
 		</image>
 
-		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.5" atv="-30" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="text3" style="custom_hotspotext"  html="관음전 " ath="-0.5" atv="-33" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.5" atv="-2" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<hotspot name="text3" style="custom_hotspotext"  html="관음전 " ath="-0.5" atv="-5" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
 
 		<hotspot name="spot2" style="skin_hotspotstyle" rotate="180" ath="25.807" atv="19.676" linkedscene="scene_145-1" linkedscene_hoffset="-1.32" use3dtransition="true" />
@@ -170,11 +170,6 @@
 		<image>
 			<cube url="panos/145-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
 		</image>
-
-		<hotspot type="image" name="spot6" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="25" atv="5" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="tex43" style="custom_hotspotext"  html="법화천지 " ath="25" atv="0" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
-
-
 
 		<hotspot name="spot1" style="skin_hotspotstyle" rotate="-2" ath="60" atv="8" distorted="false" zoom="false" linkedscene="scene_140" linkedscene_hoffset="361.32" />
 
