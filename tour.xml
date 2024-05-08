@@ -90,7 +90,7 @@
 		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-151.464" atv="-10.301" distorted="false" zoom="false" enabled="true" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
 		<hotspot name="text" style="custom_hotspotext"  html="불국사 천왕문 " ath="-151.464" atv="-15.301" distorted="false" zoom="false" enabled="true" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />		
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-151.464" atv="-2.301" linkedscene="scene_140" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-151.464" atv="-2.301" linkedscene="scene_140" distorted="true" zoom="true" />
 
 	</scene>
 
@@ -153,7 +153,7 @@
 		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="132" atv="-28.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
 		<hotspot name="text3" style="custom_hotspotext"  html="무설전 " ath="132" atv="-31.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="132.133" atv="10.036" linkedscene="scene_148-1" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="132.133" atv="10.036" linkedscene="scene_148-1" distorted="true" zoom="true"/>
 
 	</scene>
 
@@ -175,7 +175,7 @@
 		<hotspot name="text3" style="custom_hotspotext"  html="관음전 " ath="-0.500" atv="-33.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
 
-		<hotspot name="spot2" style="skin_hotspotstyle" rotate="210" ath="-30" atv="19.678" linkedscene="scene_147-1" linkedscene_hoffset="-1.32" use3dtransition="true" />
+		<hotspot name="spot2" style="skin_hotspotstyle" rotate="210" ath="-30" atv="19.678" linkedscene="scene_147-1" distorted="true" zoom="true" />
 
 	</scene>
 
@@ -195,7 +195,7 @@
 		<hotspot name="text3" style="custom_hotspotext"  html="비로전 " ath="-90" atv="-28.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-52.441" atv="20" rotate="145" linkedscene="scene_145-1" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-52.441" atv="20" rotate="145" distorted="true" zoom="true" linkedscene="scene_145-1" />
 
 	</scene>
 
@@ -217,7 +217,7 @@
 
 
 
-		<hotspot name="spot1" style="skin_hotspotstyle" rotate="-2" ath="59.860" atv="9.654" distorted="false" zoom="false" linkedscene="scene_144-1" linkedscene_hoffset="361.32" />
+		<hotspot name="spot1" style="skin_hotspotstyle" rotate="-2" ath="59.860" atv="9.654" distorted="true" zoom="true" linkedscene="scene_144-1" linkedscene_hoffset="361.32" />
 
 	</scene>
 	
@@ -235,7 +235,7 @@
 		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="15" atv="38" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
 		<hotspot name="text" style="custom_hotspotext"  html="안양문 " ath="15" atv="35" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-7.232" atv="13.140" linkedscene="scene_142-1" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-7.232" atv="13.140" linkedscene="scene_142-1" distorted="true" zoom="true"/>
 
 	</scene>
 
