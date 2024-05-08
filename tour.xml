@@ -87,8 +87,8 @@
 		<image>
 			<cube url="panos/142-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
 		</image>
-		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-151.464" atv="-10.301" distorted="false" zoom="false" enabled="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
-		<hotspot name="text" style="custom_hotspotext"  html="불국사 천왕문 " ath="-151.464" atv="-15.301" distorted="false" zoom="false" enabled="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />		
+		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-151.464" atv="-10.301" distorted="false" zoom="false" enabled="true" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text" style="custom_hotspotext"  html="불국사 천왕문 " ath="-151.464" atv="-15.301" distorted="false" zoom="false" enabled="true" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />		
 
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="-151.464" atv="-2.301" linkedscene="scene_140" />
 
@@ -103,37 +103,57 @@
 		<image>
 			<cube url="panos/140.tiles/pano_%s.jpg" />
 		</image>
-		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="7.169" atv="-14.479" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="text" style="custom_hotspotext"  html="청운교, 백운교 " ath="7.169" atv="-19.479" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="15" atv="-12" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<hotspot name="text" style="custom_hotspotext"  html="청운교, 백운교 " ath="15" atv="-15" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
-		<hotspot name="spot1" style="skin_hotspotstyle" rotate="-15" ath="7.169" atv="-9.479" linkedscene="scene_150-1" distorted="false" zoom="false"/>
+		<hotspot name="spot1" style="skin_hotspotstyle" rotate="0" ath="7.169" atv="0" linkedscene="scene_150-1" distorted="true" zoom="true"/>
 		<!--<hotspot name="spot2" style="skin_hotspotstyle" rotate="15" ath="39.658" atv="5.652" linkedscene="scene_142-1" distorted="true" zoom="false"/>
 -->
 	</scene>
 	
-		<scene name="scene_150-1" title="대웅전, 석가탑, 다보탑" onstart="" thumburl="panos/150-1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		<scene name="scene_150-1" title="다보탑, 석가탑" onstart="" thumburl="panos/150-1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-41.108" vlookat="-7.399" fovtype="MFOV" fov="140.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/150-1.tiles/preview.jpg" />
 
-		<image hfov="1.00" vfov="0.443853" voffset="0.00">
-			<flat url="panos/150-1.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1792x796,3584x1592,7168x3182" />
+		<preview url="panos/150-1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/150-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
 		</image>
 		
-		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.1" atv="-0.08" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="text" style="custom_hotspotext"  html="대웅전 " ath="-0.1" atv="-0.1" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+		<!--<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.100" atv="-0.080" distorted="false" zoom="false" enabled="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<!--<hotspot name="text" style="custom_hotspotext"  html="대웅전 " ath="-0.100" atv="-0.100" distorted="false" zoom="false" enabled="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
-		<hotspot type="image" name="spot4" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.37" atv="-0.1" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="text2" style="custom_hotspotext"  html="석가탑 " ath="-0.37" atv="-0.12" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+		<hotspot type="image" name="spot4" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-3" atv="-22" distorted="false" zoom="false" enabled="true" linkmodal="modal2" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text2" style="custom_hotspotext"  html="석가탑 " ath="-2.5" atv="-25" distorted="false" zoom="false" enabled="true" linkmodal="modal2" onclick="custom_hotspotstyle_click();" />		
 
-		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="0.15" atv="-0.18" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="tex3" style="custom_hotspotext"  html="다보탑 " ath="0.15" atv="-0.2" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-59" atv="-52" distorted="false" zoom="false" enabled="true" linkmodal="modal3" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="tex3" style="custom_hotspotext"  html="다보탑 " ath="-59.5" atv="-54" distorted="false" zoom="false" enabled="true" linkmodal="modal3" onclick="custom_hotspotstyle_click();" />		
 
 
-		<hotspot name="spot1" style="skin_hotspotstyle" rotate="10" ath="0.395" atv="0.112" distorted="false" zoom="false" linkedscene="scene_148-1" />
+		<hotspot name="spot1" style="skin_hotspotstyle" rotate="135" ath="20" atv="20" distorted="true" zoom="true" linkedscene="scene_146-1" />
+
+	</scene>
+	
+		<scene name="scene_146-1" title="무설전" onstart="" thumburl="panos/146-1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="492.335" vlookat="-5.299" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/146-1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/146-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="132" atv="-28.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<hotspot name="text3" style="custom_hotspotext"  html="무설전 " ath="132" atv="-31.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="132.133" atv="10.036" linkedscene="scene_148-1" />
 
 	</scene>
 
@@ -151,13 +171,34 @@
 			<cube url="panos/148-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
 		</image>
 
-		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.5" atv="-30" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="text3" style="custom_hotspotext"  html="관음전 " ath="-0.5" atv="-33" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.500" atv="-30.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<hotspot name="text3" style="custom_hotspotext"  html="관음전 " ath="-0.500" atv="-33.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
 
-		<hotspot name="spot2" style="skin_hotspotstyle" rotate="180" ath="25.807" atv="19.676" linkedscene="scene_145-1" linkedscene_hoffset="-1.32" use3dtransition="true" />
+		<hotspot name="spot2" style="skin_hotspotstyle" rotate="210" ath="-30" atv="19.678" linkedscene="scene_147-1" linkedscene_hoffset="-1.32" use3dtransition="true" />
 
 	</scene>
+
+	<scene name="scene_147-1" title="비로전" onstart="" thumburl="panos/147-1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-457.808" vlookat="-3.372" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/147-1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/147-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+
+		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-90" atv="-25.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<hotspot name="text3" style="custom_hotspotext"  html="비로전 " ath="-90" atv="-28.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-52.441" atv="20" rotate="145" linkedscene="scene_145-1" />
+
+	</scene>
+
 
 	<scene name="scene_145-1" title="법화천지" onstart="" thumburl="panos/145-1.tiles/thumb.jpg" lat="" lng="" heading="">
 		
@@ -171,12 +212,30 @@
 			<cube url="panos/145-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
 		</image>
 
-		<hotspot type="image" name="spot6" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="25" atv="5" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
-		<hotspot name="tex43" style="custom_hotspotext"  html="법화천지 " ath="25" atv="0" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+		<hotspot type="image" name="spot6" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="25.000" atv="5.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<hotspot name="tex43" style="custom_hotspotext"  html="법화천지 " ath="25.000" atv="0.000" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
 
 
 
-		<hotspot name="spot1" style="skin_hotspotstyle" rotate="-2" ath="60" atv="8" distorted="false" zoom="false" linkedscene="scene_140" linkedscene_hoffset="361.32" />
+		<hotspot name="spot1" style="skin_hotspotstyle" rotate="-2" ath="59.860" atv="9.654" distorted="false" zoom="false" linkedscene="scene_144-1" linkedscene_hoffset="361.32" />
+
+	</scene>
+	
+		<scene name="scene_144-1" title="안양문" onstart="" thumburl="panos/144-1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="382.235" vlookat="18.825" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/144-1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/144-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="15" atv="38" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->
+		<hotspot name="text" style="custom_hotspotext"  html="안양문 " ath="15" atv="35" distorted="false" zoom="false" enabled="false" /> <!--linkmodal="modal1" onclick="custom_hotspotstyle_click();"-->		
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-7.232" atv="13.140" linkedscene="scene_142-1" />
 
 	</scene>
 
