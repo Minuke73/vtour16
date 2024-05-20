@@ -261,7 +261,7 @@
 	       onclick="skin_hotspotstyle_click();"
 	       depth="1000"
 	       scale="0.5"
-	       onover.addevent="tween(scale,0.55);"
+	       onover.addevent="tween(scale,0.8);"
 	       onout.addevent="tween(scale,0.5);"
 	       onloaded.addevent="skin_hotspotstyle_setup();"
 		   css="calc:skin_settings.design_text_css2"
